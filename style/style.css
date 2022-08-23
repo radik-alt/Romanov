@@ -1,0 +1,1079 @@
+/* общие */
+/* *{
+    border: 1px solid black;
+} */
+
+@font-face {
+    font-family: 'Mak';
+    /* Браузер сначала попробует найти шрифт локально */
+    src: url("../fonts/MAK.otf") format("otf"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("../fonts/MAK-bold.otf") format("otf"),
+         url("../fonts/MAK.woff") format("woff"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("../fonts/MAK-bold.woff") format("woff");
+  }
+  
+.headBlock{
+    font-family: 'Mak';
+    font-size: 60px;
+    font-weight: 300;
+    color: #000000;
+}
+
+body {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    background-color: #f5f5f5;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.margSection{
+    padding: 100px;
+    padding-top: 100px;
+}
+
+.margSectionUpper{
+    padding: 100px;
+    padding-top: 100px;
+}
+
+.btnClick {
+    background-color: #f5f5f5;
+    border: 1px solid #3853b4;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 7px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* navbar */
+
+.navContainer{
+    padding: 20px;
+}
+
+#navbarText{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.nav-item{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-link{
+    color: #000000;
+    font-size: 18px;
+}
+
+
+
+
+/* 1-ая секция */
+.firstSect{
+    align-items: flex-end;
+}
+
+.headFirstName {
+    font-family: 'Mak';
+    font-size: 80px;
+    color: #000000;
+}
+
+.headLastName{
+    position: relative;
+    left: 10%;
+    font-family: 'Mak';
+    font-size: 80px;
+    line-height: 70px;
+    margin-left: 180px;
+    color: #000000;
+}
+
+.downHead {
+    font-family: "Bellota Text";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    font-style: normal;
+}
+
+.divBackItemFirst{
+    z-index: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+.backItemFirst{
+    z-index: 0;
+    background: #0037F9;
+    filter: blur(86px);
+    width: 300px;
+    height: 300px;
+}
+
+/* image */
+.allImage {
+    z-index: 100;
+    width: 80%;
+    height: auto;
+}
+
+.divDescription{
+    font-family: 'Mak';
+    position: relative;
+}
+
+.divDescriptionButon{
+    margin-top: 50px;
+}
+
+.imageBlock{
+    z-index: 0;
+    text-align: center;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+}
+
+.lineFirst{
+    width: 15%;
+    margin-right: 15px;
+    background-color: #3853b4;
+    height: 5px;
+}
+
+/* 2 секция */
+.ImageTwo{
+    width: 90%;
+}
+
+.aboutMe{
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.textAboutMe{
+    font-family: "Bellota Text";
+    font-size: 18px;
+    margin-top: 35px;
+    color: #000000;
+}
+
+.containerItem{
+    margin-top: 100px;
+}
+
+.containerLine {
+    width: 100%;
+    background: #3853b4;
+    height: 5px;
+}
+
+.containerDownTezis{
+    padding-right: 60px;
+}
+
+.divLine{
+    border: 2px solid #0037F9;
+}
+
+.containerText{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* 3 секция */
+.container {
+    border: 1px solid #0037F9;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 180px;
+}
+
+.backItem{
+    background: #0037F9;
+    filter: blur(14px);
+    width: 55px;
+    height: 55px;
+}
+
+.numberItem{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+.divBackItem{
+    position: absolute;
+    left: 70px;
+}
+
+.divBackItem2{
+    position: absolute;
+    left: 35%;
+}
+
+.numberItem2{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+.backItem2{
+    background: #0037F9;
+    filter: blur(14px);
+    width: 55px;
+    height: 55px;
+}
+
+.divBackItem3{
+    position: absolute;
+    right: 32%;
+}
+
+.numberItem3{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+.backItem3{
+    background: #0037F9;
+    filter: blur(14px);
+    width: 55px;
+    height: 55px;
+}
+
+.threeMargin{
+    margin-top: 50px;
+}
+
+.textItem {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.headItem{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 4 секция */
+.imageGallery{
+    height: 350px;
+}
+
+.seconPrev{
+    position: relative;
+    top: 30px;
+    left: 80%;
+    
+}
+
+.carousel-control-prev-icon{
+    background-color: #000000;
+}
+
+.carousel-control-next-icon{
+    background-color: #000000;
+}
+
+.seconNext{
+    position: relative;
+    top: -5px;
+    left: 90%;
+}
+
+/* 5 секция*/
+.divReviews{
+    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.otzyv{
+    font-size: 20px;
+    text-align: left;
+    line-height: 28px;
+}
+
+.DivImageOtzyv{
+    text-align: center;
+}
+
+.ImageOtzyv{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 100%;
+}
+
+.indicatorOtzyv{
+    margin-top: 50px;
+}
+
+.DivtextOtzyv{
+    margin-top: 20px;
+}
+
+.nextOtzyv{
+    margin-bottom: 50px;
+    position: absolute;
+    left: 10%;
+}
+
+.backOtzyv{
+    margin-bottom: 50px;
+    position: absolute;
+    right: 10%;
+}
+
+.margOtzyv{
+    margin-top: 50px;
+}
+
+.indicators{
+    position: relative;
+    top: 100%;
+}
+
+/* 6 секция */
+
+.headWithJob{
+    font-size: 32px;
+}
+
+.colorJobWithLeft{
+    position: absolute;
+    margin-bottom: 140px;
+    left: 13%;
+}
+
+.colorJobWithRight{
+    position: absolute;
+    margin-bottom: 140px;
+    right: 39%;
+}
+
+.containerJob {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 150px;
+}
+
+
+.divInput{
+    margin-bottom: 20px;
+}
+
+.accordion-button{
+    /* margin-bottom: 50px; */
+}
+
+.accordion-button{
+    font-family: 'Bellota Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #000000;
+    background-color: #f5f5f5;  
+    border-bottom:1px solid #0037F9;
+}
+
+.accordion-button:hover,
+.accordion-button:checked,
+.accordion-button:active,
+.accordion-button:focus
+{
+    font-family: 'Bellota Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #000000;
+    background-color: #f5f5f5; 
+}
+
+.accordion-body{
+    margin: 0px;
+    color: #000000;
+    background-color: #f5f5f5;
+}
+
+/* 8 секция */
+.eightSection{
+    border-top: 1px solid #0037F9;
+    border-bottom: 1px solid #0037F9;
+    border-top-right-radius: 150px;
+    background-color: white;
+}
+
+.formHead{
+    font-family: 'Bellota Text';
+    font-style:normal;
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.formInputs{
+    text-align: center;
+}
+
+.inputName:focus,
+.inputName:hover,
+.inputName:active,
+.inputName{
+    outline: none;
+    height: 50px;
+    padding-left: 20px;
+    width: 90%;
+    background: #FFFFFF;
+    border: 1px solid #0037F9;
+    box-sizing: border-box;
+    border-radius: 54px;
+}
+
+.colorCircule{
+    position: relative ;    
+    bottom: 37%;
+    right: 3%;
+}
+
+.btnSend{
+    height: 45px;
+    border: none;
+    background: #0037F9;
+    border-radius: 54px;
+    width: 60%;
+    color: white;
+    font-weight: bold;
+}
+
+.divSend{
+    margin-top: 50px;
+}
+
+/* footer */
+.footer{
+    margin-top: 100px;    
+}
+
+.divFooter{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.topFooter{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.middleFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    margin-right: 50px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+}
+
+.divMiddle{
+    align-items: center;
+}
+
+.email{
+    margin-left: 50px;
+}
+
+.downFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.socImage{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 600px){
+
+    /* *{
+        border: 1px solid black;
+    } */
+
+    /* 1 cекция */
+    
+    .headFirstName {
+        font-family: 'Mak';
+        font-size: 60px;
+        color: #000000;
+    }
+
+    .headLastName{
+        position: relative;
+        left: 10%;
+        font-family: 'Mak';
+        font-size: 60px;
+        line-height: 70px;
+        margin-left: 0px;
+        color: #000000;
+    }
+
+    
+    .margSectionUpper{
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    .divDescription{
+        font-family: 'Mak';
+        text-align: center;
+    }
+
+    .divDescriptionButon{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+
+    .divBackItemFirst{
+        z-index: 0;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+    }
+    
+    .backItemFirst{
+        z-index: 0;
+        background: #0037F9;
+        filter: blur(86px);
+        width: 250px;
+        height: 250px;
+    }
+
+    .fronteBlock{
+        z-index: 1;
+    }
+
+    .downMobileBlock{
+        margin-top: 50px;
+        order: 1;
+    }
+
+    .UpMobileBlock{
+        order: 0;
+    }
+
+    .allImage {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* 2 секция */
+
+    .aboutMe{
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .margSection{
+        padding: 20px;
+        padding-top: 100px;
+    }
+
+    .headBlock{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .ImageTwo{
+        width: 100%;
+    }
+
+    .divLine{
+        border: 2px solid #0037F9;
+        order: 1;
+    }
+
+    .divTwoDownText{
+        order: 0;
+    }
+    
+    .containerDownTezis{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .textAboutMe{
+        text-align: center;
+    }
+    
+    .containerItem{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    /* 3 секция */
+
+    .container {
+        border: 1px solid #0037F9;
+        box-sizing: border-box;
+        padding: 25px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 180px;
+    }
+
+    .divBackItem{
+        position: absolute;
+        left: 42%;
+    }
+
+    .divBackItem2{
+        position: absolute;
+        left: 42%;
+    }
+
+    .divBackItem3{
+        position: absolute;
+        left: 42%;
+    }
+
+
+    /* 4 секция */
+
+    .divReviews{
+        padding: 25px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+
+    .otzyv{
+        text-align: center;
+        line-height: 28px;
+    }
+
+    /* 5 секция */
+
+    .nextOtzyv{
+        margin-top: 0px;
+        position: absolute;
+        left: 0%;
+        top: 80%;
+    }
+    
+    .backOtzyv{
+        margin-top: 0px;
+        position: absolute;
+        left: 90%;
+        top: 80%;
+    }
+
+    
+    
+    .indicatorOtzyv{
+        margin-top: 80px;
+    }
+
+    /* 6 секция */
+
+    .containerJob {
+        justify-content: center ;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* 7 секция */
+ 
+    .formInputs{
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .formHead{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .eightSection{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        border-top: 1px solid #0037F9;
+        border-bottom: 1px solid #0037F9;   
+        border-top-right-radius: 150px;
+        background-color: white;
+    }
+
+    .colorCircule{
+        position: relative ;    
+        bottom: 70%;
+        left: 25%;
+    }
+
+    /* footer */
+
+    .footer{
+        margin-top: 50px;    
+    }
+
+    .number{
+        margin-right: 0px;
+    }
+
+    .topFooter{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .middleFooter{
+        display: block;
+    }
+
+    .email{
+        text-align: center  ;
+        margin-left: 0px;
+    }
+
+    .divMiddle{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 400px){
+
+
+    .divBackItemFirst{
+        z-index: 0;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+    }
+
+    .backItemFirst{
+        z-index: 0;
+        background: #0037F9;
+        filter: blur(66px);
+        width: 170px;
+        height: 170px;
+    }
+    
+    .colorCircule{
+        position: relative ;    
+        bottom: 70%;
+        left: 0%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .divBackItemFirst{
+        z-index: 0;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+    }
+
+    .backItemFirst{
+        z-index: 0;
+        background: #0037F9;
+        filter: blur(66px);
+        width: 170px;
+        height: 170px;
+    }
+
+    /* 1 cекция */
+    
+    .headFirstName {
+        font-family: 'Mak';
+        font-size: 60px;
+        color: #000000;
+    }
+
+    .headLastName{
+        position: relative;
+        left: 10%;
+        font-family: 'Mak';
+        font-size: 60px;
+        line-height: 70px;
+        margin-left: 0px;
+        color: #000000;
+    }
+
+    
+    .margSectionUpper{
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    .divDescription{
+        font-family: 'Mak';
+        text-align: center;
+    }
+
+    .divDescriptionButon{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+
+    .divBackItemFirst{
+        z-index: 0;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+    }
+    
+    .backItemFirst{
+        z-index: 0;
+        background: #0037F9;
+        filter: blur(86px);
+        width: 250px;
+        height: 250px;
+    }
+
+    .fronteBlock{
+        z-index: 1;
+    }
+
+    .downMobileBlock{
+        margin-top: 50px;
+        order: 1;
+    }
+
+    .UpMobileBlock{
+        order: 0;
+    }
+
+    .allImage {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* 2 секция */
+
+    .aboutMe{
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .margSection{
+        padding: 20px;
+        padding-top: 100px;
+    }
+
+    .headBlock{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .ImageTwo{
+        width: 100%;
+    }
+
+    .divLine{
+        border: 2px solid #0037F9;
+        order: 1;
+    }
+
+    .divTwoDownText{
+        order: 0;
+    }
+    
+    .containerDownTezis{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .textAboutMe{
+        text-align: center;
+    }
+    
+    .containerItem{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    /* 3 секция */
+
+    .container {
+        border: 1px solid #0037F9;
+        box-sizing: border-box;
+        padding: 25px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 180px;
+    }
+
+    .divBackItem{
+        position: absolute;
+        left: 42%;
+    }
+
+    .divBackItem2{
+        position: absolute;
+        left: 42%;
+    }
+
+    .divBackItem3{
+        position: absolute;
+        left: 42%;
+    }
+
+
+    /* 4 секция */
+
+    .divReviews{
+        padding: 25px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+
+    .otzyv{
+        text-align: center;
+        line-height: 28px;
+    }
+
+    /* 6 секция */
+
+    .containerJob {
+        justify-content: center ;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .colorJobWithLeft{
+        position: absolute;
+        margin-bottom: 140px;
+        left: 46%;
+    }
+    
+    .colorJobWithRight{
+        position: absolute;
+        margin-bottom: 140px;
+        left: 46%;
+    }
+
+    /* 7 секция */
+ 
+    .formInputs{
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .formHead{
+        font-family: "Bellota Text";
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .eightSection{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        border-top: 1px solid #0037F9;
+        border-bottom: 1px solid #0037F9;
+        border-top-right-radius: 150px;
+        background-color: white;
+    }
+
+    .colorCircule{
+        position: relative ;    
+        bottom: 70%;
+        left: 0%;
+    }
+
+    /* footer */
+
+    .footer{
+        margin-top: 50px;    
+    }
+
+    .number{
+        margin-right: 0px;
+    }
+
+    .topFooter{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .middleFooter{
+        display: block;
+    }
+
+    .email{
+        text-align: center  ;
+        margin-left: 0px;
+    }
+
+    .divMiddle{
+        text-align: center;
+    }
+
+}
